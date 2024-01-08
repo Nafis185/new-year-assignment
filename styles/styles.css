@@ -7,7 +7,8 @@
 
 
 * {
-    margin: 60px 60px;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -17,8 +18,10 @@
     align-items: center;
     justify-content: center;
     background-image: url('../resources/Banner\ Image.png');
-    margin-top: 60px;
-    width: 1320px;
+
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
     height: 600px;
     flex-shrink: 0;
 
@@ -61,8 +64,11 @@
 
 .section-one {
     font-family: Inter;
-    width: 1600px;
-    height: 1335px;
+    width: 38%;
+    max-width: 1320px;
+    /* height: 1335px; */
+    margin: 60px auto;
+
 }
 
 
@@ -110,8 +116,9 @@
 .section-two {
     font-family: Merriweather;
     background-image: url('../resources/Vectorrr.png');
-    width: 1320px;
-    height: 600px;
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
     flex-shrink: 0;
 }
 
@@ -151,8 +158,9 @@
 
 .section-three {
     background-color: rgba(248, 200, 200, 0.6);
-    width: 1320px;
-    height: 482px;
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
     flex-shrink: 0;
 
 }
@@ -178,6 +186,20 @@
 }
 
 
+.section-fourth{
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
+
+}
+
+.section-fivth{
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
+
+}
+
 
 
 .sec-five-img {
@@ -185,10 +207,20 @@
 
 }
 
+.section-sixth{
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
+
+}
+
 
 
 .section-seventh {
     background-color: rgba(248, 200, 200, 0.6);
+    width: 78%;
+    max-width: 1320px;
+    margin: 60px auto;
 }
 
 
