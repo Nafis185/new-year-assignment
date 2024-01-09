@@ -71,6 +71,7 @@
 
 .sec-one-img {
     display: flex;
+    margin-left: 300px;
     /* justify-content: center; */
   /* width: 802.9px;
   height: 500px;
@@ -113,12 +114,23 @@
   width: 78%;
   max-width: 1320px;
   margin: 60px auto;
+  display: flex;
   flex-shrink: 0;
 }
 
 .sec-two-headings {
   text-align: left;
   padding: 126px 552px 298px 126px;
+}
+
+.sec-two-2024-year{
+    position: absolute ;
+    right: 330px;
+    align-items: center;
+    margin-right: 1000px;
+    height: 400px;
+    padding-top: 70px;
+    
 }
 
 .sec-two-h2 {
@@ -152,12 +164,7 @@
  
 }
 
-.sec-two-2024-year{
-    position: absolute ;
-    right: 330px;
-    align-items: center;
-    
-}
+
 
 
 
@@ -218,8 +225,8 @@
   /* padding: auto 1067px auto 140px ; */
 }
 .column-left{
-    width: 393px;
-    height: 128px;
+    /* width: 393px; */
+    /* height: 128px; */
 
 }
 .n-b-o{
@@ -254,6 +261,7 @@
 .column-right{
     width: 276;
     height: 96;
+    margin-left: 20px;
    
 
 }
@@ -285,7 +293,8 @@
   height: 364.844px;
   flex-shrink: 0;
   align-items: center;
-  margin: 1px 60px 200px 400px;
+  margin-top: 60px;
+  margin-right: 70px;
 }
 
 .section-fivth {
@@ -338,6 +347,7 @@
 }   
 .s-5-img-2{
     align-items: center;
+
 
 }
 
@@ -458,7 +468,7 @@
     width: 100%;
     height: 600px;
     background-color: rgb(0,0,31);
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
 }
