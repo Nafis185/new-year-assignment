@@ -71,7 +71,7 @@
 
 .sec-one-img {
     display: flex;
-    margin-left: 300px;
+    /* margin-left: 00px; */
     /* justify-content: center; */
   /* width: 802.9px;
   height: 500px;
@@ -127,7 +127,7 @@
     position: absolute ;
     right: 330px;
     align-items: center;
-    margin-right: 1000px;
+    /* margin-right: 1000px; */
     height: 400px;
     padding-top: 70px;
     
